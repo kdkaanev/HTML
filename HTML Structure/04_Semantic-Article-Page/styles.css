@@ -1,17 +1,23 @@
-.body{
-   
+body{
     background-color: #e4e978;
-    padding: 5px;
-    margin: 10px;
-
 }
-.pool{
-    margin: 15px;
-    padding: 10px;
-    background-color: #f2f4c0;
-    border: 1px solid #b2ad7d
+.square{
     
-}
-head{
+    background-color: #f2f4c0;
     width: 700px;
+    border: 1px solid #b2ad7d;
+    margin: 10px 15px;
+    padding: 5px 15px;
+}
+section{
+    font-style: italic;
+    color:  #4c7658;
+}
+#main{
+    color: #5c6e91;
+    background-color: #f2f4c0;
+    width: 700px;
+    border: 1px solid #b2ad7d;
+    margin: 10px 15px;
+    padding: 5px 15px;
 }
