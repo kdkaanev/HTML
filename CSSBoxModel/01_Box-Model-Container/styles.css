@@ -1,1 +1,20 @@
+<<<<<<< HEAD
 /* TODO: style the html */
+=======
+/* TODO: style the html */
+body{
+    background-color: lightslategray;
+}
+
+p{
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: #0F4069;
+    color: whitesmoke;
+    border: solid 2px #e6eaef;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 50px;
+    
+}
+>>>>>>> b208332f6bda1fbfe050802e07e59f87b9a382fb
