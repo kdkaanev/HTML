@@ -1,0 +1,79 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+.viewport1{
+  background: linear-gradient(to right, 
+  rgb(0, 140, 255), 
+  rgb(0, 255, 221));
+
+                    
+                 
+                     height: 50vh;
+                    position: relative;
+                    overflow: hidden;
+                    
+                    
+                  
+}
+ 
+.viewport1 .card .imge{
+  width: 200px;
+  height: 100px;
+}
+
+ .viewport1 .card {
+  display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+
+   transform: translate(-50%, -50%);
+
+
+ }
+
+ .viewport1 .card i{
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  color:white;
+  padding: 8px;
+}
+
+
+
+ .viewport2{
+  background: linear-gradient(to right, 
+  rgb(255, 0, 128), 
+  rgb(255, 123, 0));
+
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+                  
+                
+}
+
+.viewport2 .card .imge{
+width: 200px;
+height: 300px;
+}
+
+.viewport2 .card {
+  display: block;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+
+ transform: translate(-50%, -50%);
+
+
+}
+.viewport2 .card i{
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  color:white;
+  padding: 8px;
+}

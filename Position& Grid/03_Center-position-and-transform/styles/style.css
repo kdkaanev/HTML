@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(238, 238, 238) ;
+
+}
+.card{
+    
+    margin: auto;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
