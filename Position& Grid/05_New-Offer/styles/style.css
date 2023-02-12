@@ -1,0 +1,16 @@
+main{
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+    display: inline-block;
+    
+   
+}
+img.new{
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
+img{display:inline-block;
+}
