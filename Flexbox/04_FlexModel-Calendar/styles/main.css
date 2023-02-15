@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+
+}
+.container{
+    margin: 0px;
+    max-width: 65vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+section .week{
+    display: flex;
+    align-items: center;
+}
+span{
+    border: 1px solid black;
+}
+section .notes{
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+section .week:nth-child(1){
+}
