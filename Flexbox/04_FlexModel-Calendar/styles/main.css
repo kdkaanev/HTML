@@ -1,26 +1,36 @@
-body{
+*{
     box-sizing: border-box;
+}
 
-}
 .container{
-    margin: 0px;
-    max-width: 65vw;
+    
+    max-width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+    
+  
     
 }
-section .week{
+.container section{
     display: flex;
     align-items: center;
 }
-span{
+.container .item{
     border: 1px solid black;
+    padding: 12px;
+    display: block;
+   
 }
-section .notes{
-    flex-direction: column;
+.container .week{
+    width: 75%;
     flex-wrap: wrap;
-    
 }
-section .week:nth-child(1){
+.container .notes{
+    flex-direction: column;
+    width: 25%;
+}s
+.container .week .item{
+    width: 20%;
+}
+.container .week .item:nth-child(1), .container .week .item:nth-child(7){
+    width: 100%;
 }
