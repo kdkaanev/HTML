@@ -1,0 +1,16 @@
+/* TODO: Add responsive styles here... */
+@media (max-width: 600px) {
+#home .container{
+display: block;
+}
+#home .hero img{
+    display: none;
+}
+#home  .hero-btns{
+    display: none;
+}
+#home .container{
+    display: block;
+}
+    
+}

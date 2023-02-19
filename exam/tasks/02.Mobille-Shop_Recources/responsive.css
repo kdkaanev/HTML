@@ -1,0 +1,42 @@
+@media (max-width: 600px){
+    .home-header{
+        margin: 0px;
+        padding: 0px;
+        visibility: hidden;
+    }
+    .home-middle{
+        display: block;
+    }
+    .home-navbar1{
+        display: block;
+        visibility: hidden;
+    }
+    .navbar-logo-title{
+        display: block;
+        visibility: visible;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        margin: 0px;
+    }
+    .home-hero1{
+        flex-direction: column;
+    }
+    .section-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    .home-left4{
+        padding: 36px;
+        text-align: center;
+    }
+.home-image6{
+    width: 100%;
+}
+.home-footer1{
+   flex-direction: column-reverse;
+    flex-wrap:wrap;
+}
+
+}
