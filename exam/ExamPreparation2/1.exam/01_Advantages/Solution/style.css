@@ -2,6 +2,7 @@ body{
     font-family: Lato;
     display: flex;
     justify-content: center;
+    margin-top: 64px;
 }
 p{
     background-color: hsl(220 16% 97% / 1);
