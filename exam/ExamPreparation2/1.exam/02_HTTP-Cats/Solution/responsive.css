@@ -1,0 +1,18 @@
+@media(max-width:769px){
+    body > main > section > section.wrapper.style2 > div > section{
+        flex-direction: column;
+        align-content: center;
+    }
+    body > main > section > section.wrapper.style2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 0%;
+    }
+    body > main > section > section.wrapper.style1 > header > p{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+ 
+}
