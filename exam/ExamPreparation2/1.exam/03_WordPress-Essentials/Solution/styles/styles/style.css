@@ -189,10 +189,54 @@ body > div > section.head > button{
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 128px;
+    
    
 }
 .topic_p{
     background-color: hsl(0deg 0% 85.49%);
     margin: 6px;
-    font-size:12px;
+    font-size:9px;
+    padding: 9px;
+    border-left: 3px solid black;
+}
+
+/*  section Who*/
+.who{
+    color:white;
+    padding: 12px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background-color: hsl(37.65deg 100% 50%);
+    width: 66%;
+    margin: 36px;
+}
+.border{
+    border-top: 3px solid white;
+}
+
+/* section Info */
+
+.info{
+    padding: 12px;
+    
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    background-color: hsl(0deg 0% 94.9%);
+    width: 66%;
+    margin: 6px;
+}
+.teach{
+    width: 100%;
+}
+.info>p{
+    padding-bottom: 12px;
+}
+.precens{
+    background-color: #234465;
+}
+.online{
+    background-color:  hsl(37.65deg 100% 50%);
 }
