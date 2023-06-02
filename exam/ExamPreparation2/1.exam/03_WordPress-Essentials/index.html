@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Press Esential</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Lato">
+    <link rel="stylesheet" href="Solution/styles/styles/reset.css">
+    <link rel="stylesheet" href="Solution/styles/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
         <div class="left">
             <div class="logo"><img src="Requirements-and-Resources/images/software-university-logo.svg" alt=""></div>
         
-        <button class="btn_request">Кандидатствай</button>
+        <button class="btn">Кандидатствай</button>
     
     </div>      
         
@@ -29,7 +30,7 @@
     
    
         </nav>
-        <button class="btn_enter">Вход</button>
+        <button class="btn enter">Вход</button>
        </div>
            
             
@@ -41,14 +42,15 @@
     <div class="main">
         <section class="head">
             <div class="background"><img src="Requirements-and-Resources/images/pexels-pixabay-235985.jpg" alt="background"></div>
-            <h1>WordPress Essentials - август 2019</h1>
+            <h1 class="head_h1">WordPress Essentials - август 2019</h1>
             <div class="long">
                 <p><i class="fa-sharp fa-regular fa-circle-play"></i> 3 август 2019</p>
                 <p><i class="fa-sharp fa-regular fa-file-lines"></i > 29 септември 2019</p>
                 <p><i class="fa-sharp fa-regular fa-clock"></i> 4 седмици</p>
                 <p><i class="fa-sharp fa-solid fa-graduation-cap"></i> 3 кредита</p>
-                <button class="submit">ЗАЯВИ УЧАСТИЕ</button>
+                
             </div>
+            <button class="btn submit">ЗАЯВИ УЧАСТИЕ</button>
         </section>
         <section class="request">
             <div class="h2">
@@ -61,7 +63,7 @@
 
 
             </p>
-            <button class="submit">ЗАЯВИ УЧАСТИЕ</button>
+            <button class="btn submit">ЗАЯВИ УЧАСТИЕ</button>
             
             
         </section>
@@ -70,13 +72,13 @@
                 <h2>УМЕНИЯ, КОИТО ЩЕ ПРИДОБИЕШ</h2>
                 <hr style="width:80%">
             </div>
-            <ul class="skills none">
+            <ul class="skill none">
                 <li><i class="fa-sharp fa-solid fa-graduation-cap"></i> Инсталация и настройка на WordPress</li>
                 <li><i class="fa-sharp fa-solid fa-graduation-cap"></i> Създаване на цялостни WordPress сайтове</li>
                 <li><i class="fa-sharp fa-solid fa-graduation-cap"></i> Работа с уеб хостинг, домейни и cPanel</li>
                 <li><i class="fa-sharp fa-solid fa-graduation-cap"></i>Инсталация и настройка на теми и добавки</li>
                 <li><i class="fa-sharp fa-solid fa-graduation-cap"></i> Създаване и промяна на собствени WP теми</li>
-                <li><i class="fa-sharp fa-solid fa-graduation-cap"> Работа по практически проект изграден с WordPress</i></li>
+                <li><i class="fa-sharp fa-solid fa-graduation-cap"></i>Работа по практически проект изграден с WordPress</li>
             </ul>
         </section>
         <section class="topics">
@@ -85,20 +87,20 @@
                 <hr style="width:80%">
             </div>
             <div class="topic">
-                <p class="topic_p">1 RESOURCES</p>
-                <p class="topic_p">2 COURSE INTRODUCTION</p>
-                <p class="topic_p">3 INTRODUCTION TO WORDPRESS</p>
-                <p class="topic_p">4 EXERCISE: INTRODUCTION TO WORDPRESS</p>
-                <p class="topic_p">5 POPULAR WORDPRESS THEMES</p>
-                <p class="topic_p">6 EXERCISE: POPULAR WORDPRESS THEMES</p>
-                <p class="topic_p">7 USING WORDPRESS PLUGI</p>
-                <p class="topic_p">8 EXERCISE: USING WORDPRESS PLUGINS</p>
-                <p class="topic_p">9 WORKSHOP: A REAL LIFE EXAMPLE</p>
-                <p class="topic_p">10 CREATING CUSTOM WORDPRESS THEME</p>
-                <p class="topic_p">11 EXERCISE: CREATING CUSTOM WORDPRESS THEME</p>
-                <p class="topic_p">12 CONSULTING DAY</p>
-                <p class="topic_p">13 PROJECT DEFENCES</p>
-                <p class="topic_p">14 RETAKE EXAM (PROJECT DEFENCE)</p>
+                <p class="topic_p">1  RESOURCES</p>
+                <p class="topic_p">2  COURSE INTRODUCTION</p>
+                <p class="topic_p">3  INTRODUCTION TO WORDPRESS</p>
+                <p class="topic_p">4  EXERCISE: INTRODUCTION TO WORDPRESS</p>
+                <p class="topic_p">5  POPULAR WORDPRESS THEMES</p>
+                <p class="topic_p">6  EXERCISE: POPULAR WORDPRESS THEMES</p>
+                <p class="topic_p">7  USING WORDPRESS PLUGI</p>
+                <p class="topic_p">8  EXERCISE: USING WORDPRESS PLUGINS</p>
+                <p class="topic_p">9  WORKSHOP: A REAL LIFE EXAMPLE</p>
+                <p class="topic_p">10  CREATING CUSTOM WORDPRESS THEME</p>
+                <p class="topic_p">11  EXERCISE: CREATING CUSTOM WORDPRESS THEME</p>
+                <p class="topic_p">12  CONSULTING DAY</p>
+                <p class="topic_p">13  PROJECT DEFENCES</p>
+                <p class="topic_p">14  RETAKE EXAM (PROJECT DEFENCE)</p>
             </div>
             
         </section>
@@ -147,7 +149,7 @@
             <h3>Георги Генов</h3>
             <p><span>Георги Генов</span> се занимава с програмиране от около 8 години, въпреки че пише първия си код на 15 години. Още тогава проявява интерес към програмирането и се научава на основните неща съвсем сам с уроци от интернет. Завършва Технически университет София, специалност Автоматика. Сега работи като Software Developer & Resource Team Lead в голяма софтуерна фирма и Freelancer, за да бъде в крак с новите технологии.</p>
         </section>
-        <button class="submit">ЗАЯВИ УЧАСТИЕ</button>
+        <button class="btn submit">ЗАЯВИ УЧАСТИЕ</button>
     </div>
     <footer>
         <section class="for_us">
