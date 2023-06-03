@@ -260,3 +260,37 @@ body > div > section.head > button{
 .type_teach{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
 }
+
+/* section Teacher */
+
+.teacher{
+    padding: 12px 42px;
+    display: grid;
+    gap: 12px;
+    align-items: center;
+    background-color: hsl(0deg 0% 94.9%);
+    width: 66%;
+    margin: 36px;
+}
+.teacher .h2{
+    color: #234465;
+    grid-area: head;
+}
+.teacher>img{
+    border-radius: 100%;
+    grid-area: pics;
+}
+.teacher>h3{
+    color: #234465;
+    grid-area: name;
+}
+.teacher>p{
+    grid-area: info;
+}
+.teacher{
+    grid-template-areas: 
+    ". . head . ."
+    ". name . . ."
+    "pics info info info info";
+
+}
