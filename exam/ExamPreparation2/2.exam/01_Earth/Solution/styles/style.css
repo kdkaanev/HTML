@@ -1,0 +1,47 @@
+body{
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.main{
+    height: 100vh;
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    background-color: hsl(190.91deg 100% 4.31%);
+}
+h1{
+    color: hsl(184.41deg 99.19% 51.57%);
+}
+h3{
+    color: hsl(96.92deg 39.39% 93.53%);
+}
+.info{
+
+    background-color: hsl(0deg 0% 100%);
+    display:flex;
+}
+.card{
+   
+    display: inline-block;
+    border: 2px solid black;
+    padding: 8px 16px;
+    margin: 32px;
+}
+.text{
+    padding: 8px 16px;
+    margin-top: 32px;
+}
+h2{
+    display:inline-block;
+    color:white;
+    background-color: #001216;
+}
+.h2{
+    background-color: white;
+}
+.facts{
+    background-color:hsl(180deg 31.03% 88.63%);
+}
+span{
+    font-weight: bold;
+}
