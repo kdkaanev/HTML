@@ -73,10 +73,6 @@ header{
 }
 
 
-/* .none{
-    display: flex;
-    gap:20px
-} */
 .none>li>a{
     color: hsl(204.29deg 21.43% 61.57%);
     font-size:smaller;
@@ -87,12 +83,22 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
    
 }
+.wordpres{
+    opacity: 0.3;
+    position: absolute;
+    width: 400px;
+    top: 120px;
+    left: 0;
+}
+
 .head{
     height: 200px;
     width: 100%;
     position: relative;
+    opacity: 0.5;
     
 }
 .background{
@@ -153,6 +159,7 @@ body > div > section.head > button{
     background-color: hsl(0deg 0% 94.9%);
     width: 66%;
     margin: 36px;
+    z-index: 10;
 }
 /* section Skils */
 .skills{
@@ -293,4 +300,37 @@ body > div > section.head > button{
     ". name . . ."
     "pics info info info info";
 
+}
+
+/* footer */
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    padding-left: 16%;
+    padding-right: 16%;
+    background-color: #234465;;
+}
+footer>section{
+   padding-left: 75px;
+   
+}
+footer>section>ul>li>a{
+    color:hsl(68deg 15.79% 81.37%);
+}
+footer>section>h4{
+    margin-bottom: 16px;
+    color: hsl(37.65deg 100% 50%);
+}
+.social{
+    margin-bottom: 16px;
+}
+.social> a> i{
+    font-size: large;
+    padding-right: 8px;
+    color: white;
+}
+.end > p{
+    color: hsl(68deg 15.79% 81.37%);
 }
