@@ -1,0 +1,46 @@
+body{
+    font-family: Inter;
+    background-color: hsl(0deg 0% 85.1%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+    justify-items: center;
+    padding: 6%;
+}
+.card{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.nature{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 30px;
+}
+
+
+.man{
+    grid-area: pics;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    justify-self: center;
+
+}
+.name{
+    justify-self: start;
+    grid-area: name;
+    padding-top: 16px;
+}
+.min{
+    grid-area: min;
+    text-align: end;
+    padding-top: 16px;
+    
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+     "pics name none min";
+}
