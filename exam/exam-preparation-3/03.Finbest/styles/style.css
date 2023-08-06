@@ -180,9 +180,7 @@ border-right: 1px solid hsl(0deg 0% 85.88%);
 .items >p{
     font-size: 10px;
 }
-.plans-contact{
-    background-color:  hsl(176.6deg 47.75% 78.24%);;
-}
+
 span{
     font-size: 10px;
     font-weight: lighter;
@@ -202,5 +200,29 @@ ul{
     margin-right: 0px;
    
 }
+.button{
+    background-color: #ade2df;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: smaller;
+    padding: 12px;
+}
 /* plans */
+/* expand */
+.plans-contact{
+    background-color:  hsl(176.6deg 47.75% 78.24%);
+    padding:24px;
+}
+.contact{
+    color: white;
+    background-color:black;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: smaller;
+    padding: 12px;  
+    margin-top: 50px;
+}
+/* expand */
 /* COSTS */
