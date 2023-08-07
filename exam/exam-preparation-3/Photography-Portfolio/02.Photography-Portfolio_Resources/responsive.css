@@ -1,0 +1,29 @@
+@media (max-width: 600px){
+    .navigation-nav{
+        display: none;
+    }
+    .home-text{
+        display: none;
+    }
+    .home-tab-selector-cards-container{
+        display: block;
+    }
+    .span{
+        margin-bottom: 24px;
+    }
+.portofolio-card-image-container{
+margin-top:40px;
+}
+.home-about{
+    display: block;
+}
+.home-image-container{
+    display: none;
+}
+.home-top-part{
+    flex-direction: column;
+}
+.home-links-container{
+    flex-direction: column;
+}
+}
