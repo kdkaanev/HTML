@@ -1,0 +1,127 @@
+*{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+header{
+    background-color: hsl(0deg 0% 100%);
+    display: flex;
+    justify-content: space-between;
+}
+.nav >a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    
+}
+.nav{
+    padding: 16px 20px;
+}
+.nav2{
+    display: flex;
+    gap: 10px;
+}
+/* Donate */
+    .donate{
+        background-color: hsl(197.21deg 100% 76.08%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .donate-pic{
+        
+        margin-right: 40px;
+       
+    }
+    .donate-text{
+        padding: 40px 80px;
+    }
+    .donate-text>h2{
+        font-size: medium;
+    }
+    .donate-text>p{
+        font-size: 10px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .donate-buttons{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .donate-btn{
+        border-radius: 6px;
+        border: 1px solid black;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 10px 40px;
+        background-color: hsl(0deg 0% 100%);
+    }
+    .donate-join{
+        border-radius: 6px;
+        background-color: hsl(0deg 0% 0%);
+        color: hsl(0deg 0% 100%);
+        font-size: 10px;
+        font-weight: bold;
+        padding: 10px 40px;
+    }
+    
+/* Donate */
+/* Needs */
+.needs{
+    background-color:hsl(0deg 0% 100%) ;
+}
+    .needs-header{
+        text-align: center;
+    }
+    .needs-header>h3{
+        padding: 10px;
+        font-size: small;
+    }
+    .needs-header>p{
+        padding: 10px 200px;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        
+    }
+    .needs-cards{
+        display: flex;
+        gap: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
+        
+    } 
+    .card{
+        text-align: center;
+       
+    }
+    .card>i{
+        font-size: 80px;
+        color: hsl(197.21deg 100% 76.08%);
+        padding: 16px;
+    }
+    .card>h4{
+        font-size: small;
+        padding: 8px;
+    }
+    .card>p{
+        font-size: 10px;
+    }
+/* Needs */
+/* Mission */
+    .mission{
+        background-color:  hsl(197.21deg 100% 76.08%);
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mission>ul{
+        list-style-type: none;
+    }
+    
+    .fa-circle{
+        font-size: smaller;
+    }
+/* Mission */
